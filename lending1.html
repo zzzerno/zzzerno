@@ -6,20 +6,32 @@
    <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
 </head>
 <body>
+<div class="top">
+	<a href="#center"><div class="link2">link2</div></a>
+	<a href="#center_two"><div class="link2_2">link2</div></a>
+	<a href="#bottom"><div class="link3">link3</div></a>
+  </div>
 <div class="all">
 
-  <div class="top">top
-  	<a name="top"></a>
-	<a href="#center"><div class="link2">link2</div></a>
-	<a href="#bottom"><div class="link3">link3</div></a>
-	<a href="#top"><div class="scrollup">up</div></a>
-  </div>	
+  	
   
-  <div class="center">center</div>
-  <a name="center"></a>
+  <div id="center" class="center">center</div>
+
+
+  <div id="center_two" class="center_two">center</div>
   
-  <div class="bottom">bottom</div>
-  <a name="bottom"></a>
+  <div id="bottom" class="bottom">bottom</div>
  </div>
+  
+  <script>
+  
+  window.onresize = function(event) {
+    console.log(event);
+    console.log('ширина браузера: '+window.innerHeight);
+    console.log('высота браузера: '+window.innerWidth);
+  };
+
+  </script>
+
  </body>
 </html>
