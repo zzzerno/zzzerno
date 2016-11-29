@@ -1,0 +1,43 @@
+.all{
+	min-height:400 px;
+	height: auto;
+}
+.top{
+	background-color: red;
+	height: 300px;	
+	position: fixed;
+	margin-top: -600px;
+	width: 100%;
+}
+.link2{
+	background-color: blue;
+	height: 25px;	
+	width: 50px;
+	margin-left: 100px;
+}
+.link3{
+	background-color: green;
+	height: 25px;	
+	width: 50px;	
+	margin-top: -25px;
+	margin-left: 500px;
+}
+.center{
+	background-color: blue;
+	height: 300px;	
+	margin-top: 600px;
+}
+
+.bottom{
+	background-color: green;
+	height: 300px;
+}
+.scrollup{
+	background-color: black;
+	color:white;
+	height: 25px;	
+	width: 50px;
+	margin-top: -25px;
+	margin-left: 800px;
+	cursor: pointer;
+}
